@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="imagens/Logo sem fundo.png">
+    <script src="https://kit.fontawesome.com/c8c8018606.js" crossorigin="anonymous"></script>
+    <title>Little petshop</title>
+</head>
+
+
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <div id="header">
+            <img src="imagens/Logo sem fundo.png" alt="imagem-logo">
+            <div id="menu">
+                <a class="menus" href="home.html">Home</a>
+                <a class="menus" href="servicos.html">Serviços</a>
+                <a class="menus" href="membrovip.html">Seja membro</a>
+                <a class="menus" href="contato.html">Contato</a>
+                <a href="graficos.html">Graficos</a>
+                <a href="agendamentos.html">Agendar</a>
+                <span><a class="user" href="index.html"><i class="fa-solid fa-user fa-bounce"></i></a></span>
+            </div>
+
+        </div>
+    </header>
+    <!-- MIOLO DO SITE -->
+
+    <div id="container-pet">
+        <form id="frm" autocomplete="off">
+            <div id="info-user">
+                <p>ID: </p>
+                <input id="ID" type="text" placeholder="123456" required />
+                <p>Nome Completo:</p>
+                <input id="Nome" type="text" placeholder="Pet Da Silva" required />
+                <p>Endereço:</p>
+                <input id="endereco" type="text" placeholder="Rua João Batista, 660" required />
+                <p>Cidade: </p>
+                <input id="cidade" type="text" placeholder="Brotas-SP" required />
+                <p>UF:</p>
+                <input id="uf" type="text" placeholder="código de identificação" required />
+                <p>E-mail:</p>
+                <input id="email" type="email" placeholder="email@petshop.com" required />
+                <p>Senha de acesso: </p>
+                <input id="senha" type="password" placeholder=".................." required />
+                <p>Data de nascimento:</p>
+                <input id="data" type="date" required />
+                <p>Telefone:</p>
+                <input id="telefone" type="tel" placeholder="(xx)xxxx-xxxx" required />
+
+            </div>
+
+
+
+
+            <div id="imagem">
+
+
+                <div id="informacao-pet">
+                    <p>Nome do pet: </p>
+                    <input id="nome2" type="text" placeholder="Virgulino Da Silva" required />
+                    <p>Tipo:</p>
+                    <input id="Tipo" type="text" placeholder="Dragao" required />
+                    <p>Idade:</p>
+                    <input id="Idade" type="number" placeholder="69" required />
+                </div>
+
+                <button type="button" id="enviar-dados" onclick="validarDados()">
+                    <p>ENVIAR</p>
+                </button>
+                <small id="mensagem-erro">Erro</small>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div id="fim">
+            <a id="fim" href="contato.html">CONTATO: (XX) XXXX-XXXX / littlepetshop@gmail.com</a>
+        </div>
+        <img src="imagens/Logo sem fundo.png" alt="">
+    </footer>
+</body>
+<script src="java/pet.js"></script>
+
+</html>

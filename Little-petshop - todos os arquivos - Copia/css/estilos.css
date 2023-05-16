@@ -1,0 +1,1740 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CABEÇALHO */
+#header {
+    display: flex;
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );    height: 120px;
+}
+
+#header img:first-child {
+    padding: 0px 0px 0px 150px;
+    height: 120px;
+}
+
+#menu {
+    text-align: center;
+    padding-left: 350px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#menu a {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #fec000;
+}
+
+#menu a:last-of-type {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    background-color: #0d9598;
+    border-radius: 15px;
+
+}
+
+#menu img {
+    height: 60px;
+}
+
+#menu a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#menu-sobre a:last-of-type:hover {
+    background-color: #fec000;
+}
+
+#header-sobre {
+    display: flex;
+    background-color: purple;    height: 120px;
+}
+
+#header-sobre   img:first-child {
+    padding: 0px 0px 0px 150px;
+}
+
+#menu-sobre {
+    text-align: center;
+    padding-left: 350px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-sobre a {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #fec000;
+}
+
+#menu-sobre a:last-of-type {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    background-color: hsl(286, 84%, 30%);
+    border-radius: 15px;
+
+}
+
+#menu a.user{
+    background-color: transparent;
+}
+
+#menu-sobre img {
+    height: 60px;
+}
+
+#menu-sobre a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#menu-sobre a:last-of-type:hover {
+    background-color: #fec000;
+}
+
+#menu a.user:hover{
+    background-color: transparent;
+}
+
+#menu-sobre i{
+    padding-left: 15px;
+    font-size: 50px;
+}
+/* MIOLOD DO SITE */
+
+#meio {
+    background: url(../imagens/miolo\ do\ sitee.png) no-repeat;
+    background-position-x: center;
+    height: 490px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top: 60px;
+    width: 1086px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+#yellowtxt {
+    color: #0d9598;
+
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#menu i {
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+#meio a {
+    text-decoration: none;
+    background-color: #0d9598;
+    padding: 5px;
+    border-radius: 13px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+#meio a:hover {
+    color: #FFFFFF;
+}
+
+
+.footer {
+    color: blue;
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );    height: 120px;
+    height: 60px;
+    display: flex;
+    padding-bottom: 14px;
+    margin-top: auto;
+}
+
+#fim {
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: #fec000;
+
+
+}
+
+#fim:hover {
+    color: #ffffff;
+}
+
+footer img {
+    width: 90px;
+    height: 70px;
+    padding: 0px 0px 0px 650px;
+}
+
+#sobre-sobre {
+    color: blue;
+    background-color: purple; height: 120px;
+    display: flex;
+    height: 60px;
+    padding-bottom: 14px;
+
+}
+
+#fim2 {
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: #fec000;
+
+
+}
+
+#fim2:hover {
+    color: #ffffff;
+}
+
+#roxo- img {
+    width: 90px;
+    height: 70px;
+    padding: 0px 0px 0px 650px;
+}
+
+/* Estilos página agendamento */
+
+#meio2 {
+    background: url(../imagens/miolo\ do\ sitee.png) no-repeat;
+    background-position-x: center;
+    height: 515px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top: 60px;
+
+    width: 1086px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+#agendar {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#agendar input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px lightblue;
+    width: 300px;
+    border-color: #074445;
+    padding: 8px;
+    margin-top: 3px;
+    background-color: rgb(186, 186, 186);
+    border: none;
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 2px;
+}
+
+#botao {
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+#cadastrar {
+    width: 150px;
+    height: 40px;
+    background-color: #0d9598;
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#login {
+    width: 150px;
+    height: 40px;
+    background-color: #0d9598;
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+    border-radius: 10px;
+    border: none;
+}
+
+#botao a{
+    padding: 5px;
+    background-color: #0d9598;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+}
+
+#botao a:hover{
+    color: #ffffff;
+    background-color: #074445;
+}
+/* Pagina login */
+
+#login2 {
+    width: 150px;
+    height: 40px;
+    background-color: #0d9598;
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+    border-radius: 10px;
+    border: none;
+}
+
+#entrar {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+
+#entrar:hover{
+    color: white;
+}
+
+#agendar2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+#agendar2 input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px lightblue;
+    width: 300px;
+    border-color: #074445;
+    padding: 8px;
+    margin-top: 3px;
+    background-color: rgb(186, 186, 186);
+    border: none;
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 2px;
+}
+
+#container2{
+    background: url(../imagens/pata\ dog\ roxo.png) no-repeat;
+    background-position-x: right;
+    height: 800px;
+    
+}
+
+#meio3{
+    display: flex;
+    justify-content: end;
+}
+
+#meio3 h1{
+    margin-right: 170px;
+    margin-top: 200px;
+    font-size: 25px;
+    background-color: rgb(68, 68, 68);
+    padding: 12px;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#conteudo{
+    display: flex;
+    padding: 10px;
+    float: right;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(286, 84%, 30%);
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 50px;
+    color: #FFFFFF;
+    margin-bottom: 400px;
+}
+
+/* Estilos pagina Agendamento */
+
+#container3 {
+    background: url(../imagens/agendamento.jpeg) no-repeat;
+    height: 600px;
+
+}
+
+#titulo p {
+    padding-top: 10px;
+    font-size: 36px;
+    text-align: center;
+    color: #ffbf00;
+}
+
+#titulo p:hover {
+    color: #074445;
+    font-weight: bold;
+
+}
+
+
+#agendamento-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 900px;
+    border-radius: 10px;
+    width: 300px;
+    
+}
+
+#agendamento-1 p {
+    margin-top:20px ;
+    font-size: 26px;
+}
+
+#agendamento-1 input {
+    background-color: #fec000;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 68px;
+}
+
+#tipos {
+    text-align: center;
+}
+#horario {
+    text-align: center;
+}
+#endereco {
+    text-align: center;
+}
+#nome {
+    text-align: center;
+}
+
+#botao-enviar {
+    padding-left: 975px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+#enviar-1 {
+    background-color: #0d9598;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 60px;
+}
+
+#enviar-2 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#enviar-2:hover {
+    color: white;
+}
+
+#container4 {
+    background: url(../imagens/Group\ 6.png);
+    
+    background-size: cover;
+    height: 700px;
+    padding: 0;
+    margin-top: 0px;
+}
+
+
+#container4 h1 {
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#container4 h1:hover {
+    color: #0d9598;
+}
+
+#botao-agendar {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    text-decoration: none;
+    margin-top: 190px;
+}
+
+#bt-agendar {
+    background-color: #0d9598;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 60px;
+    margin-bottom: 100px;
+
+}
+
+#bt-click {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bt-click:hover {
+    color: white;
+}
+
+#combos {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #000000;
+    height: 60px;
+    margin-bottom: 38px;
+}
+
+#combos button {
+    margin: 0px 300px;
+    background-color: #000000;
+    font-size: 18px;
+    border: none;
+    
+
+    
+}
+
+#one {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    
+}
+
+#two {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+#two:hover {
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+}
+
+#one:hover {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+/* Combos simples */
+
+#container5 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#conteudo2{
+    margin-top: 50px;
+    background: url(../imagens/img-simples.png) no-repeat;
+    height: 390px;
+    margin-left: 235px;
+    margin-bottom: 105px;
+}
+
+#texto p{
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 140px;
+    margin-top: 25px;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    color: #0d9598;
+    border-radius: 15px;
+    padding: 10px 12px 10px 10px;
+
+}
+
+#span{
+    font-size: 15px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#texto{
+    margin-top: 50px;
+}
+
+#container6{
+    background-image: url(../imagens/Background.png);
+    height: 1400px;
+}
+
+#conteudo3{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    height: 1332px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#conteudo3 h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#cont{
+    display: flex;
+}
+
+#cont img{
+    margin-left: 100px;
+}
+
+#cont p{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 100px ;
+    margin-right: 15px;
+}
+
+#cont2{
+    margin-top: 40px;
+}
+
+#cont2 a{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    background-color: #0d9598;
+    color: #000000;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+#cont2 a:hover{
+    color: white;
+}
+
+#cont3 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0d9598;
+    border-radius: 15px;
+    padding: 10px;
+}
+#cont3 a:hover{
+    color: #FFFFFF;
+}
+
+#cont3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#doggo{
+    height: 520px;
+}
+/* Estilos membro vip */
+
+#container7{
+    background: url(../imagens/Background.png) no-repeat;
+    padding-top: 15px;
+
+}
+
+#container7 h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+#membro {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 680px;
+    
+}
+
+#membro p {
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#txt1 {
+    color: rgb(0, 200, 255);
+}
+
+#txt2 {
+    background-color: #fec000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#txt2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#txt2 a:hover {
+    color: rgb(1, 108, 137);
+}
+
+
+
+/* combo luxo */
+
+/* Estilos pagina Combo Luxo */
+
+#container8 {
+    background: url(../imagens/bk.jpeg) no-repeat;
+    background-position-x: center;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+}
+
+#container8 h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+
+#bluetxt {
+    color: #0d9598;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+#texto2 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 363px;
+    margin-top: 100px;
+    font-size: 17px;
+}
+
+
+/* Estilos contato */
+
+#container9 {
+    background: url(../imagens/fundosobre.png) no-repeat;
+    background-position: center;
+    margin-top: 60px;
+    height: 500px;
+}
+
+#icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    padding-left: 400px;
+    padding-top: 90px;
+  
+    position: absolute;
+    
+}
+
+
+#contatos p {
+    text-align: center;
+        float: center;
+    margin-right: 400px;
+   padding-top: 100px;
+   font-size: 20px;
+   padding-left:102px;
+   
+   
+}
+
+#contatos a {
+    text-decoration: none;
+    color: black;
+}
+
+#contatos a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#contatos p:hover {
+    color: white;
+}
+
+/*RESPONSIVIDADE(tentativa)*/
+@media (max-width: 1300px) {
+    body {
+        margin: 0px;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* CABEÇALHO */
+    #header {
+        display: flex;
+        flex-direction: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );    height: 70px;  overflow-x: 400px;
+    
+    }
+    
+    #header img:first-child {
+        padding: 0px 0px 0px 70px;
+        height: 70px;
+    }
+    
+    #menu {
+        text-align: center;
+        padding-left: 500px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #menu a {
+        padding: 9px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        font-style: italic;
+        color: #fec000;
+    }
+    
+    #menu a:last-of-type {
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        background-color: #0d9598;
+        border-radius: 15px;
+    
+    }
+    
+    #menu img {
+        height: 40px;
+    }
+    
+    #menu a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    #menu-sobre a:last-of-type:hover {
+        background-color: #fec000;
+    }
+    
+    #header-sobre {
+        display: flex;
+        background-color: purple;    height: 120px;
+    }
+    
+    #header-sobre   img:first-child {
+        padding: 0px 0px 0px 150px;
+    }
+    
+    #menu-sobre {
+        text-align: center;
+        padding-left: 350px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #menu-sobre a {
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        font-style: italic;
+        color: #fec000;
+    }
+    
+    #menu-sobre a:last-of-type {
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        background-color: hsl(286, 84%, 30%);
+        border-radius: 15px;
+    
+    }
+    
+    #menu a.user{
+        background-color: transparent;
+    }
+    
+    #menu-sobre img {
+        height: 60px;
+    }
+    
+    #menu-sobre a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    #menu-sobre a:last-of-type:hover {
+        background-color: #fec000;
+    }
+    
+    #menu a.user:hover{
+        background-color: transparent;
+    }
+    
+    #menu-sobre i{
+        padding-left: 15px;
+        font-size: 50px;
+    }
+    /* MIOLOD DO SITE */
+    
+    #meio {
+        background: url(../imagens/miolo\ do\ sitee.png) no-repeat;
+        background-position-x: center;
+        height: 490px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        margin-top: 60px;
+        width: 1086px;
+        padding-left: 120px;
+        padding-top: 30px;
+    }
+    
+    #yellowtxt {
+        color: #0d9598;
+    
+    
+    }
+    
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #menu i {
+        font-size: 50px;
+        padding-left: 15px;
+    }
+    
+    #meio a {
+        text-decoration: none;
+        background-color: #0d9598;
+        padding: 5px;
+        border-radius: 13px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+    }
+    
+    #meio a:hover {
+        color: #FFFFFF;
+    }
+    
+    
+    .footer {
+        color: blue;
+        background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );    height: 120px;
+        height: 60px;
+        display: flex;
+        padding-bottom: 14px;
+        margin-top: auto;
+    }
+    
+    #fim {
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+        color: #fec000;
+    }
+
+    #fim:hover {
+        color: #ffffff;
+    }
+    
+    footer img {
+        width: 90px;
+        height: 70px;
+        padding: 0px 0px 0px 570px;
+    }
+    
+    #sobre-sobre {
+        color: blue;
+        background-color: purple; height: 120px;
+        display: flex;
+        height: 60px;
+        padding-bottom: 14px;
+    
+    }
+    
+    #fim2 {
+        color: white;
+        text-decoration: none;
+        margin-top: 25px;
+        margin-left: 60px;
+        font-size: 25px;
+        color: #fec000;
+    
+    
+    }
+    
+    #fim2:hover {
+        color: #ffffff;
+    }
+    
+    #roxo- img {
+        width: 90px;
+        height: 70px;
+        padding: 0px 0px 0px 650px;
+    }
+    
+    /* Estilos página agendamento */
+    
+    #meio2 {
+        background: url(../imagens/miolo\ do\ sitee.png) no-repeat;
+        background-position-x: center;
+        height: 515px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        margin-top: 60px;
+    
+        width: 1086px;
+        padding-left: 120px;
+        padding-top: 30px;
+    }
+    
+    #agendar {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    
+    #agendar input {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        border-radius: 10px;
+        border: solid 1px lightblue;
+        width: 300px;
+        border-color: #074445;
+        padding: 8px;
+        margin-top: 3px;
+        background-color: rgb(186, 186, 186);
+        border: none;
+    
+    }
+    
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin: 2px;
+    }
+    
+    #botao {
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    
+    #cadastrar {
+        width: 150px;
+        height: 40px;
+        background-color: #0d9598;
+        color: white;
+        font-size: 16px;
+        padding-top: 3px;
+        border-radius: 10px;
+        border: none;
+    
+    }
+    
+    #login {
+        width: 150px;
+        height: 40px;
+        background-color: #0d9598;
+        color: white;
+        font-size: 16px;
+        padding-top: 3px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    #botao a{
+        padding: 5px;
+        background-color: #0d9598;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    #botao a:hover{
+        color: #ffffff;
+        background-color: #074445;
+    }
+    /* PAGINA LOGIN */
+    
+    #login2 {
+        width: 150px;
+        height: 40px;
+        background-color: #0d9598;
+        color: white;
+        font-size: 16px;
+        padding-top: 3px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    #entrar {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    
+    
+    #entrar:hover{
+        color: white;
+    }
+    
+    #agendar2 {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    
+    #agendar2 input {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        border-radius: 10px;
+        border: solid 1px lightblue;
+        width: 300px;
+        border-color: #074445;
+        padding: 8px;
+        margin-top: 3px;
+        background-color: rgb(186, 186, 186);
+        border: none;
+    
+    }
+    
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin: 2px;
+    }
+    
+    #container2{
+        background: url(../imagens/pata\ dog\ roxo.png) no-repeat;
+        background-position-x: right;
+        height: 800px;
+        
+    }
+    
+    #meio3{
+        display: flex;
+        justify-content: end;
+    }
+    
+    #meio3 h1{
+        margin-right: 170px;
+        margin-top: 200px;
+        font-size: 25px;
+        background-color: rgb(68, 68, 68);
+        padding: 12px;
+        border-radius: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    #conteudo{
+        display: flex;
+        padding: 10px;
+        float: right;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: hsl(286, 84%, 30%);
+        border-radius: 15px;
+        text-align: center;
+        margin-right: 50px;
+        color: #FFFFFF;
+        margin-bottom: 400px;
+    }
+    
+    /* Estilos pagina Agendamento */
+    
+    #container3 {
+        background: url(../imagens/agendamento.jpeg) no-repeat;
+        background-size: 900px;
+        height: 500px;
+    
+    }
+    
+    #titulo p {
+        padding-top: 10px;
+        font-size: 17px;
+        text-align: center;
+        color: #ffbf00;
+    }
+    
+    #titulo p:hover {
+        color: #074445;
+        font-weight: bold;
+    
+    }
+    
+    
+    #agendamento-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 900px;
+        border-radius: 10px;
+        width: 300px;
+        
+    }
+    
+    #agendamento-1 p {
+        margin-top: 5px ;
+        font-size: 13px;
+    }
+    
+    #agendamento-1 input {
+        background-color: #fec000;
+        border: none;
+        border-radius: 20px;
+        height: 40px;
+        width: 160px;
+        margin-top: 20px;
+        margin-left: 68px;
+    }
+    
+    #tipos {
+        text-align: center;
+    }
+    #horario {
+        text-align: center;
+    }
+    #endereco {
+        text-align: center;
+    }
+    #nome {
+        text-align: center;
+    }
+    
+    #botao-enviar {
+        padding-left: 975px;
+        text-decoration: none;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        
+    }
+    
+    #enviar-1 {
+        background-color: #0d9598;
+        border-radius: 5px;
+        border: none;
+        width: 150px;
+        height: 60px;
+    }
+    
+    #enviar-2 {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #enviar-2:hover {
+        color: white;
+    }
+    
+    #container4 {
+        background: url(../imagens/Group\ 6.png);
+        
+        background-size: cover;
+        height: 700px;
+        padding: 0;
+        margin-top: 0px;
+    }
+    
+    
+    #container4 h1 {
+        padding-top: 150px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    
+    #container4 h1:hover {
+        color: #0d9598;
+    }
+    
+    #botao-agendar {
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+        text-decoration: none;
+        margin-top: 190px;
+    }
+    
+    #bt-agendar {
+        background-color: #0d9598;
+        border-radius: 10px;
+        border: none;
+        width: 250px;
+        height: 60px;
+        margin-bottom: 100px;
+    
+    }
+    
+    #bt-click {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #bt-click:hover {
+        color: white;
+    }
+    
+    #combos {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        background-color: #000000;
+        height: 60px;
+        margin-bottom: 38px;
+    }
+    
+    #combos button {
+        margin: 0px 300px;
+        background-color: #000000;
+        font-size: 18px;
+        border: none;
+        
+    
+        
+    }
+    
+    #one {
+        text-decoration: none;
+        color: rgb(255, 255, 255); 
+        
+    }
+    
+    #two {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    #two:hover {
+        color: rgb(255, 174, 0);
+        font-weight: bold;
+    }
+    
+    #one:hover {
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+    }
+    
+    /* Combos simples */
+    
+    #container5 h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    
+    #conteudo2{
+        margin-top: 50px;
+        background: url(../imagens/img-simples.png) no-repeat;
+        height: 390px;
+        margin-left: 235px;
+        margin-bottom: 105px;
+    }
+    
+    #texto p{
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        margin-left: 140px;
+        margin-top: 25px;
+        text-align: left;
+        position: absolute;
+        font-weight: bold;
+        color: #0d9598;
+        border-radius: 15px;
+        padding: 10px 12px 10px 10px;
+    
+    }
+    
+    #span{
+        font-size: 15px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    #texto{
+        margin-top: 50px;
+    }
+    
+    #container6{
+        background-image: url(../imagens/Background.png);
+        height: 1400px;
+    }
+    
+    #conteudo3{
+        background-color: #FFFFFF;
+        text-align: center;
+        padding-top: 20px;
+        width: 70%;
+        margin: 0 auto;
+        height: 1332px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+        border-radius: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #conteudo3 h1{
+        font-size: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    #cont{
+        display: flex;
+    }
+    
+    #cont img{
+        margin-left: 100px;
+    }
+    
+    #cont p{
+        text-align: left;
+        font-size: 20px;
+        margin-top: 100px ;
+        margin-right: 15px;
+    }
+    
+    #cont2{
+        margin-top: 40px;
+    }
+    
+    #cont2 a{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        background-color: #0d9598;
+        color: #000000;
+        padding: 10px;
+        border-radius: 15px;
+    
+    }
+    
+    #cont2 a:hover{
+        color: white;
+    }
+    
+    #cont3 a{
+        text-decoration: none;
+        font-size: 25px;
+        color: #000000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #0d9598;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    #cont3 a:hover{
+        color: #FFFFFF;
+    }
+    
+    #cont3{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #doggo{
+        height: 520px;
+    }
+    /* Estilos membro vip */
+    
+    #container7{
+        background: url(../imagens/Background.png) no-repeat;
+        padding-top: 15px;
+    
+    }
+    
+    #container7 h1 {
+        text-align: center;
+        margin-top: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    }
+    
+    
+    #membro {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        height: 680px;
+        
+    }
+    
+    #membro p {
+        background-color: #000000;
+        color: white;
+        position: absolute;
+        border-radius: 30px;
+        text-align: center;
+        padding: 20px;
+        font-size: 25px;
+    }
+    
+    #txt1 {
+        color: rgb(0, 200, 255);
+    }
+    
+    #txt2 {
+        background-color: #fec000;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    #txt2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #txt2 a:hover {
+        color: rgb(1, 108, 137);
+    }
+    
+    
+    
+    /* combo luxo */
+    
+    /* Estilos pagina Combo Luxo */
+    
+    #container8 {
+        background: url(../imagens/bk.jpeg) no-repeat;
+        background-position-x: center;
+        height: 600px;
+        background-color: rgb(247, 247, 247);
+    }
+    
+    #container8 h1 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 40px;
+    }
+    
+    #bluetxt {
+        color: #0d9598;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+    }
+    
+    #texto2 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        margin-left: 363px;
+        margin-top: 100px;
+        font-size: 17px;
+    }
+    
+    
+    /* Estilos contato */
+    
+    #container9 {
+        background: url(../imagens/fundosobre.png) no-repeat;
+        background-position: center;
+        margin-top: 60px;
+        height: 500px;
+    }
+    
+    #icons {
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        padding-left: 400px;
+        padding-top: 90px;
+      
+        position: absolute;
+        
+    }
+    
+    
+    #contatos p {
+        text-align: center;
+            float: center;
+        margin-right: 400px;
+       padding-top: 100px;
+       font-size: 20px;
+       padding-left:102px;
+       
+       
+    }
+    
+    #contatos a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #contatos a:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    #contatos p:hover {
+        color: white;
+    }
+    
+}
+
+#container-pet{
+    background-image: url(../imagens/Background.png);
+    height: 100%;
+}
+
+#imagem{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background: url(../imagens/dog\ com\ fundo.png) no-repeat;
+   height: 90%;
+  margin-left: 600px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#info-user{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+#info-user input{
+    background-color: rgb(160, 158, 158);
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+}
+
+
+#informacao-pet{
+    width: 200px;
+    margin-top: 65px;
+    margin-left: 500px;
+    position: absolute;
+    
+ 
+    
+}
+
+#informacao-pet input{
+    background-color: rgb(160, 158, 158);
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+}
+
+
+#enviar-dados{
+    height: 40px;
+    width: 100px;
+    background-color: #0d9598 ;
+    margin-left: 530px;
+    margin-top: 330px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#enviar-dados p{
+    font-size: 20px;
+}
+
+#enviar-dados:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+#mensagem-erro{
+    display: none;
+}
+
+#botaoo{
+    border-radius: 15px;
+    background-color: #0d9598;
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+}
+
+#botaoo:hover{
+    background-color: #074445;
+    color: #FFFFFF;
+}
+
+
+
+/* graficos */
+
+
+#rosca{
+    display: flex;
+    justify-content: center;
+    
+}
